@@ -1,0 +1,39 @@
+* {
+  /* margin: 0;
+  padding: 0; */
+}
+
+
+#header {
+  min-height: 576px;
+  background-color: #F0FFF0;
+}
+
+
+.logo {
+  width: 198.07px;
+  height: 59px;
+}
+.nav-text {
+  color: black;
+  font-weight: 600;
+}
+.nav-text:hover {
+  color: black;
+  text-decoration: none;
+  transform: scale(1.2);
+}
+
+.sign-in-btn {
+  width: 104px;
+  background: #21B573;
+  border-radius: 33px;
+  font-family: Roboto;
+  color: #FFFFFF;
+}
+.sign-in-btn:hover {
+  border-radius: 33px;
+  font-family: Roboto;
+  color: #FFFFFF;
+  transform: scale(1.2);
+}
