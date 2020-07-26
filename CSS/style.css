@@ -3,6 +3,9 @@
   padding: 0; */
 }
 
+.question {
+  color: #FD511A;;
+}
 
 #header {
   min-height: 576px;
@@ -24,16 +27,62 @@
   transform: scale(1.2);
 }
 
-.sign-in-btn {
-  width: 104px;
+.btn {
   background: #21B573;
   border-radius: 33px;
   font-family: Roboto;
   color: #FFFFFF;
+  padding: 5px 20px;
 }
-.sign-in-btn:hover {
+.btn:hover {
   border-radius: 33px;
   font-family: Roboto;
   color: #FFFFFF;
   transform: scale(1.2);
 }
+
+.single-item {
+  height: 270px;
+  width: 270px;
+  background: #F8FFFB;
+  transform: scale(.9);
+  border-radius: 10px;
+}
+.single-item:hover {
+  background: #fff;
+  box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+}
+
+.single-item img {
+  width: 68px;
+}
+
+.card {
+  border: none;
+  box-shadow: 2px 2px 10px gray;
+  border-radius: 15px;
+  width: 370;
+}
+
+.card:hover {
+  transform: scale(1.1);
+  z-index: 100;
+}
+
+.icon {
+  width: 22px;
+  height: 22px;
+  margin-left: -10px;
+}
+
+.card-footer {
+  background: #fff;
+  border: none;
+  border-radius: 15px !important;
+}
+
+.man-logo {
+  width: 120px;
+  height: 120px;
+}
+
